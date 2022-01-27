@@ -18,11 +18,13 @@
 - Initally started with a low fidelity version created in Figma. This progressed to a version that included a limited colour palette.
 
 <table>
-  <tr>
-    <td><img src="https://raw.githubusercontent.com/naomijustin/landingpage_fcc/main/images/Pallete.png" alt="Limited Colour Palette Chosen via https://coolors.co/"></td>
-    <td><img src="https://raw.githubusercontent.com/naomijustin/landingpage_fcc/main/images/3C%20-%20Landing%20Page%20-%20Low%20Fidelity.png" alt="Low Fidelity Wireframe"></td>
-    <td><img src="https://raw.githubusercontent.com/naomijustin/landingpage_fcc/main/images/3C%20-%20Landing%20Page%20-%20V2.png" alt="Further refining using limited colour palette"></td>    
-  </tr>
+    <tr>
+        <td><img src="https://raw.githubusercontent.com/naomijustin/landingpage_fcc/main/images/Pallete.png" alt="Limited Colour Palette Chosen via https://coolors.co/"></td>
+    </tr>
+    <tr>
+        <td><img src="https://raw.githubusercontent.com/naomijustin/landingpage_fcc/main/images/3C%20-%20Landing%20Page%20-%20Low%20Fidelity.png" alt="Low Fidelity Wireframe"></td>
+        <td><img src="https://raw.githubusercontent.com/naomijustin/landingpage_fcc/main/images/3C%20-%20Landing%20Page%20-%20V2.png" alt="Further refining using limited colour palette"></td>    
+    </tr>
  </table>
 
 ## Technologies
