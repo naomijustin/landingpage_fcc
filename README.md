@@ -1,2 +1,10 @@
-# landingpage_fcc
-Landing Page
+# Landing Page
+
+## Contents
+- Overview of project
+- Process
+- Technologies
+- Illustrations
+- Launch
+
+---
