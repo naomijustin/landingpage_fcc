@@ -1,3 +1,25 @@
 body {
     background-color: #F2F3AE;
 }
+
+header {
+    height: 50px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #F2F3AE;
+    background-color: #F4442E;
+    font-weight: 600;
+    width: 120px;
+    height: 25px;
+    text-align: center;
+}
+
+.nav-link {
+    color: #F4442E;
+    font-weight: 600;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #F4442E;
+}
