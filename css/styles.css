@@ -1,11 +1,27 @@
 body {
     background-color: #F2F3AE;
-    padding: 20px;
+    
 }
 
 header {
     height: 50px;
 }
+
+h1 {
+    font-family: 'Syne', sans-serif;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: 'Syne', sans-serif;
+    font-weight: 900;
+    
+}
+
+/* Fonts
+font-family: 'Lato', sans-serif;
+    font-family: 'Public Sans', sans-serif;
+    */
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #F2F3AE;
