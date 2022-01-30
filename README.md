@@ -11,11 +11,14 @@
 
 ## Overview of Project
 
-- A landing page to experiment with a bold and vibrant colour palette, new style of composition and test different CSS Animations.
+A landing page to experiment with a bold and vibrant colour palette, new style of composition and test different CSS Animations.
 
 ## Process
 
-- Initally started with a low fidelity version created in Figma. This progressed to a version that included a limited colour palette.
+Initally started with a low fidelity version created in Figma. This progressed to a version that included a limited colour palette.
+
+Once the colour scheme was chosen, I chose a product that felt complimentary to the palette. 
+As the colours consisted of warm autumn tones, I chose to go with an autumn clothing service to bulk up wardrobes for the coming months.
 
 <table>
   <tr>
