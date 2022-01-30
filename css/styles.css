@@ -14,29 +14,72 @@ h1 {
 
 h2 {
     font-family: 'Syne', sans-serif;
-    font-weight: 900;
+    font-weight: 900;    
+}
+
+h3 {
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
     
+     
+}
+
+.mediumFont {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.generalFont {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 600;
+}
+
+.smallFont {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.85rem;
 }
 
 /* Fonts
 font-family: 'Lato', sans-serif;
-    font-family: 'Public Sans', sans-serif;
+    
     */
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #F2F3AE;
     background-color: #F4442E;
     font-weight: 600;
-    width: 120px;
+    width: 110px;
     height: 25px;
     text-align: center;
 }
 
 .nav-link {
+    text-align: center;
     color: #F4442E;
     font-weight: 600;
 }
 
 .nav-link:focus, .nav-link:hover {
     color: #F4442E;
+}
+
+.redContainer {
+    background-color: #F4442E;
+    border-radius: 20px;
+    padding: 10px;    
+}
+
+.yellowText {
+    color: #F2F3AE;
+}
+
+.yellowButton {
+    background-color: #F2F3AE;
+    color:#F4442E;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 600;
+    border-radius: 20px;
+    
 }
