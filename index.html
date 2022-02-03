@@ -13,32 +13,36 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Syne:wght@500;600;700;800&display=swap" rel="stylesheet">
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="script/script.js"></script>
+    <script src="script/script.js"></script>    
 </head>
-<body>
-    <header class="row justify-content-between p-3 generalFont">
+<body class="mx-auto">
+  <script ref="script" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <header id="header" class="row justify-content-between p-3 generalFont">
         <div class="col-4">
-            <img src="images/AutumnDreams_Logo.svg" alt="Autumn Dreams Logo" style="width: 150px;">
+            <img id="header-img" src="images/AutumnDreams_Logo.svg" alt="Autumn Dreams Logo" style="width: 150px;">
         </div>
         <div class="col-4">
+          <nav id="nav-bar">
             <ul class="nav nav-pills mt-2">
                 <li class="nav-item my-auto px-1">
-                  <a class="nav-link py-0 px-4 active" aria-current="page" href="#">Shop</a>
+                  <a class="nav-link py-0 px-4 active" aria-current="page" href="#sectionTiers">Shop</a>
                 </li>
                 <li class="nav-item px-1">
-                  <a class="nav-link py-0 px-4" href="#">About</a>
+                  <a class="nav-link py-0 px-4" href="#sectionBlueBg">About</a>
                 </li>
                 <li class="nav-item px-1">
-                  <a class="nav-link py-0 px-4" href="#">Contact</a>
+                  <a class="nav-link py-0 px-4" href="#sectionTitle">Contact</a>
                 </li>
-              </ul>            
+              </ul>
+            </nav>
         </div>
     </header>
     <main class="pt-5">
       <!-- === Section 1 - Yellow BG - Top === -->
-      <div class="row p-3">
+      <div id="sectionTitle" class="row p-3">
         <div class="col-6 pt-5">
           <h1 style="color: #F4442E">Autumn Clothing</h1>
           <h2 style="color: #FC9E4F" >Done Right</h2>
@@ -46,27 +50,31 @@
       </div>
 
       <!-- === Section 2 - Navy BG - Middle === -->
-      <div class="row p-3 generalFont" style="background-color: #080477">
+      <div id="sectionBlueBg" class="row p-3 generalFont" style="background-color: #080477">
           <div class="col-4 offset-8">
-            <img id="imgPhone1" src="https://raw.githubusercontent.com/naomijustin/landingpage_fcc/main/images/Phone%201.svg" class="position-absolute " alt="Image of Phone with Yellow Screen">
+            <img id="imgPhone1" src="https://raw.githubusercontent.com/naomijustin/landingpage_fcc/main/images/Phone%201.svg" class="position-absolute" alt="Image of Phone with Yellow Screen">
           </div>
-          <div id="wrapYellowTextMiddle" class="col-6 col-sm-6 offset-6 offset-sm-7 offset-md-8" style="color: #F2F3AE;">
+          <div id="wrapYellowTextMiddle" class="col-10 col-sm-6 offset-0 offset-sm-7 offset-md-8" style="color: #F2F3AE;">
             <p class="m-0">Autumn clothes</p><br />
             <p class="m-0">Delivered monthly</p><br />
             <p class="m-0">Straight to your door</p><br />
+          </div>
+          <div>
+            <img id="imgPhone2" src="https://raw.githubusercontent.com/naomijustin/landingpage_fcc/main/images/Phone%202.svg" class="position-absolute d-none d-sm-block" alt="Image of Phone with Orange Screen and tilted to the side">
           </div>
       </div>
 
       <!-- === Section 3 - Yellow BG - Lower-->
       <div class="row p-3 pt-5">
-          <div class="col-8 offset-4 offset-sm-6 col-sm-6" style="text-align: right;">
+          <div class="col-12 offset-0 offset-sm-6 col-sm-6" style="text-align: right;">
             <h1 style="color: #080477;">Get started now</h1>
             <h2 style="color: #FC9E4F">Cancel anytime</h2>
           </div>
       </div>
 
       <!-- === Tiers === -->
-      <div class="row p-3 justify-content-center text-center">
+      
+      <div id="sectionTiers" class="row p-3 justify-content-center text-center">
         <div class="col-md-8 col-12 row text-center">
           <div class="col-10 offset-1 col-sm-6 offset-sm-3 offset-md-0 col-md-4 py-2">
             <div class="redContainer yellowText text-center">
@@ -91,7 +99,7 @@
 
           <div class="col-10 offset-1 col-sm-6 offset-sm-3 offset-md-0 col-md-4 py-2">
             <div class="redContainer yellowText text-center">
-              <span class="mediumFont">Harvst Tier</span>
+              <span class="mediumFont">Harvest Tier</span>
               <h3 class="mb-0 mt-3" style="font-size: 2.5rem;">$12</h3>
               <span class="smallFont pt-0">per month</span>
               <div class="pt-3">
@@ -99,13 +107,24 @@
               </div>
             </div>
           </div>
-
+          
+          <div class="col-12 mt-5">
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/aT66uumZ0Zo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
         </div>
-
-
-
-       
       </div>
+   
+    <form sutocomplete="off" id="form">
+      <div class="row justify-content-center mb-5">
+        <div class="col-6 redContainer yellowText text-center">
+          <span class="mediumFont">Find out more</span>         
+          <div class="col-6 offset-3 pt-3">
+            <input id="email" type="text" class="form-control" placeholder="Enter your email" maxlength="70">
+          </div>
+          
+        </div>
+      </div>
+    </form>
 
     </main>
     <footer>

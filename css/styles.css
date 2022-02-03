@@ -1,6 +1,6 @@
 body {
     background-color: #F2F3AE;
-    
+    max-width: 1500px;    
 }
 
 header {
@@ -85,23 +85,53 @@ font-family: 'Lato', sans-serif;
 
 /* Images */
 #imgPhone1 {
-    width: 290px; 
+    width: 270px; 
     margin-top: -200px; 
     margin-left: -80px;
 }
+
+#imgPhone2{
+    width: 400px;
+    margin-top: -470px;
+    margin-left: 0px;
+}
+
 
 /* Text Default */
 #wrapYellowTextMiddle {
     margin-top: 400px;  
 }
 
+
+/* Sections */
+#sectionBlueBg {
+    border-radius: 30px;
+    margin: 0px 20px;
+}
+
+
+/* Media Queries*/
+@media only screen and (max-width: 1500px) {
+    #sectionBlueBg {
+        border-radius: 30px;
+    }
+}
+
+
 @media only screen and (max-width: 768px) {
     #imgPhone1 {
         width: 200px;
     }
+
     #wrapYellowTextMiddle {
         margin-top: 230px; 
     }
+
+    #imgPhone2{
+        width: 300px;
+        margin-top: -300px;
+    }
+    
 }
 
 @media only screen and (max-width: 576px) {
@@ -109,5 +139,11 @@ font-family: 'Lato', sans-serif;
         width: 140px;
         margin-left: -60px;
         margin-top: -90px; 
+    }
+
+    #imgPhone2 {
+        width: 220px;
+        margin-left: -20px;
+        margin-top: -50px;
     }
 }
