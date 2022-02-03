@@ -80,6 +80,34 @@ font-family: 'Lato', sans-serif;
     color:#F4442E;
     font-family: 'Public Sans', sans-serif;
     font-weight: 600;
-    border-radius: 20px;
-    
+    border-radius: 20px; 
+}
+
+/* Images */
+#imgPhone1 {
+    width: 290px; 
+    margin-top: -200px; 
+    margin-left: -80px;
+}
+
+/* Text Default */
+#wrapYellowTextMiddle {
+    margin-top: 400px;  
+}
+
+@media only screen and (max-width: 768px) {
+    #imgPhone1 {
+        width: 200px;
+    }
+    #wrapYellowTextMiddle {
+        margin-top: 230px; 
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #imgPhone1 {
+        width: 140px;
+        margin-left: -60px;
+        margin-top: -90px; 
+    }
 }
