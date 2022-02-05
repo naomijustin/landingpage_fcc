@@ -20,7 +20,7 @@
 </head>
 <body class="mx-auto">
   <script ref="script" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <header id="header" class="row justify-content-between p-3 generalFont">
+    <header id="header" class="row justify-content-between p-3 generalFont position-fixed">
         <div class="col-4">
             <img id="header-img" src="images/AutumnDreams_Logo.svg" alt="Autumn Dreams Logo" style="width: 150px;">
         </div>
@@ -42,6 +42,7 @@
     </header>
     <main class="pt-5">
       <!-- === Section 1 - Yellow BG - Top === -->
+      <div style="margin-top: 80px !important;"></div>
       <div id="sectionTitle" class="row p-3">
         <div class="col-6 pt-5">
           <h1 style="color: #F4442E">Autumn Clothing</h1>
@@ -114,14 +115,16 @@
         </div>
       </div>
    
-    <form sutocomplete="off" id="form">
+    <form autocomplete="off" id="form" action="https://www.freecodecamp.com/email-submit">
       <div class="row justify-content-center mb-5">
         <div class="col-6 redContainer yellowText text-center">
           <span class="mediumFont">Find out more</span>         
-          <div class="col-6 offset-3 pt-3">
-            <input id="email" type="text" class="form-control" placeholder="Enter your email" maxlength="70">
-          </div>
-          
+          <div class="col-6 offset-3 py-3">
+            <input id="email" name="email" type="email" class="form-control" placeholder="Enter your email" maxlength="70">
+          </div>          
+          <button id="submit" type="submit" class="btn yellowButton px-md-4">
+            Submit
+          </button>          
         </div>
       </div>
     </form>
